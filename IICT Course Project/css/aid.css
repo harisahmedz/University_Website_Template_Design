@@ -1,0 +1,52 @@
+.navbar{
+    padding:10px 0;
+    background: rgba(0, 0, 0, 1);
+}
+#krak p{
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+}
+
+#krak{
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+#krak, #krak1{
+    background-color: rgba(47, 26, 26, 0.2);
+    color: #771a1a;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+#krak ul li{
+    margin: 25px;
+}
+
+#krak h4{
+    margin: 10px;
+}
+
+#krak h6{
+    margin: 10px;
+}
+
+#krak1{
+    background-image: url("../img/finan.jpeg");
+}
+
+#dwn{
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 30px;
+    padding:30px;
+}
+
+#dwn h1{
+    color: rgb(172, 14, 14);
+}
+
+#dwn p{
+    color: rgb(53, 53, 53);
+}

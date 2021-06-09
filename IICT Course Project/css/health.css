@@ -1,0 +1,25 @@
+#ut{
+    font-size: 22px;
+}
+
+#re{
+    padding: 10px 20px; 
+}
+.main{
+    position: relative;
+    background-image: url("../farhan(images)/healthcover.png");
+    background-color: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    padding:220px 0 200px;
+    height: 90vh;
+}
+.main h2{
+    text-shadow: 3px 3px 5px black;
+}
+
+.main p{
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}

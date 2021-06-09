@@ -1,0 +1,272 @@
+
+.content{
+    background-image: url("../areeba/s-bg.jpg");
+    position: relative;
+    background-color: rgba(104, 97, 97, 0.8);
+    background-blend-mode: multiply;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 80vh;
+
+    
+  }
+  
+.s-1{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+    grid-row-gap: 10px;
+    grid-gap: 5px;
+    padding: 3% 5%;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+.A img{
+         height: 80px;
+         width: 80px;
+}
+.A{
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px #cccccc57;
+    border: 1px thin white;
+    border-radius: 5px;
+    border-top: 4px solid #b1040e;
+  
+   
+}
+
+.A h2{
+    color: rgb(58, 54, 54);
+    text-align: center;
+    font-weight: bold;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    margin: 10px 20px;
+  
+
+}
+.A p{
+    font-size: 1em;
+    line-height: 1.5;
+    color:rgb(139, 54, 54);
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+ .s-1 img:hover {
+    transform: scale(1.06);
+    cursor: pointer;
+  }
+p:hover{
+    color:  rgb(88, 88, 88);
+    cursor: pointer;
+}
+.heading{
+ 
+    font-weight: 400;
+    color:rgb(94, 93, 93);
+    font-size: 2.6em;
+    margin-left:5%;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 5%;
+    padding-top: 5%;
+   
+    
+    
+ }
+
+.heading b{
+    color: rgb(136, 77, 77);
+    font-weight: 400;
+    margin:0px ;    
+    letter-spacing: 0.02em;
+
+}
+.resources{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-row-gap: 10px;
+    padding: 5% 7%; 
+    margin-right: 200px;
+}
+.B img{
+    height: 350px;
+    width: 450px;
+    padding: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+   
+}
+
+.C{
+    border: 1px thin black;
+    background-color: rgb(0, 65, 107);
+    color: white; 
+    height: 500px;
+    width:400px;
+    font-family: Poppins;
+}
+.C h1{
+   padding-top: 40px;
+   padding-left: 30px;
+}
+.C ul{
+  padding-left: 60px;
+  padding-top: 20px;
+
+}
+.C ul li{
+    line-height: 1.7em;
+    
+}
+
+.resources1{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-row-gap: 10px;
+    padding: 5% 5%; 
+  
+}
+
+.E img{
+    height: 350px;
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+   
+}
+
+.D{
+    border: 1px thin black;
+    background-color:#044e27;
+    color: white; 
+    height: 400px;
+    width:600px;
+    font-family: Poppins;
+    margin-left: 50px;
+   
+    
+}
+.D h1{
+   padding-top: 40px;
+   padding-left: 30px;
+}
+.D ul{
+  padding-left: 60px;
+  padding-top: 20px;
+
+}
+.D ul li{
+    line-height: 1.7em;
+    
+}
+
+.F{
+    border: 1px thin black;
+    background-color: #ffb500;
+    color: rgb(20, 19, 19); 
+    height: 500px;
+    width: 400px;
+    font-family: Poppins;
+    margin-left: 80px;
+}
+.G img{
+    height: 350px;
+    width: 450px;
+    padding: 40px;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.F h1{
+   padding-top: 40px;
+   padding-left: 30px;
+}
+.F ul{
+  padding-left: 60px;
+  padding-top: 20px;
+
+}
+.F ul li{
+    line-height: 1.7em;
+    
+}
+
+.life-1{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    grid-column-gap:1em;
+    grid-row-gap:1em;  
+    padding: 5% 13%;
+}
+.life-1 h2{
+    position: relative;
+    z-index: 1;
+    color:rgb(0, 65, 107);
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width:330px;
+}
+.life-1 p{
+
+    font-size: 1em;
+    margin-bottom: 15px;
+    color: #444444;
+    width:330px;
+}
+
+.life-1 a{
+    color: rgb(223, 77, 61);
+    font-size: 0.6em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top:110%;
+    
+}
+.life-1 i{
+    padding-right: 2%;
+  
+    color: rgb(223, 77, 61);
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+}
+.article-1 img{
+    width: 100%;
+}
+.article-1{
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px #cccccc57;
+    border: 1px thin white;
+}
+.life-1 .article-1:nth-child(1){
+    background: linear-gradient(45deg);
+}
+
+.life-1 .article-1:nth-child(2){
+    background: linear-gradient(45deg);
+}
+
+
+.life-1 .article-1:nth-child(3){
+    background: linear-gradient(45deg);
+}
+
+
+.life-1 .article-1:nth-child(4){
+    background: linear-gradient(45deg);
+}

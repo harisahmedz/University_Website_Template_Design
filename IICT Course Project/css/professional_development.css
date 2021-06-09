@@ -1,0 +1,301 @@
+.main{
+    position: relative;
+    background-image: url("../farhan(images)/pdcover");
+    background-color: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-blend-mode:multiply ;
+    padding:220px 0 200px;
+    height: 90vh;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center; 
+}
+
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.header-buttons a{
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    padding: 12px 35px;
+    outline: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+    transition: .15s ease-in-out;
+}
+
+.header-buttons a:hover{
+    color: rgb(17, 17, 17);
+    background-color: #ffffff;
+}
+
+.center-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: #d3d3d3;
+}
+
+#extra{
+    transition: .1s ease-in-out;
+}
+
+#extra:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+.serviceoffers{
+    background-color: #f7f7f9;
+    padding: 50px 0px;
+    margin-bottom: 50px;
+}
+
+.headings{
+    margin-bottom: 50px;
+
+}
+
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.names h1{
+    color: #2e2e2e;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+
+.servicediv h2{
+    font-size: 1.2rem;
+    margin: 5px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+.servicediv{
+    padding: 0px;
+}
+#man{
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 1.8;
+}
+
+#krak p{
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#krak h1{
+    padding: 20px;
+}
+
+#krak{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    height: 400px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+#krak:hover{
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.landing{
+    background-image: url("../farhan(images)/pdlanding.jpg");
+    padding: 10px;
+    height: auto;
+    font-family: 'Oswald', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#grad{
+    background-color: #f7f7f9;
+}
+
+#lib-img img{
+    width: 100%;
+}
+#library{
+    background-image: url("../farhan(images)/libraryback.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+#info-lib{
+    padding:0  1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:1em;
+}
+#lib h1{
+    color: rgb(170, 58, 35);
+    font-weight: 400;
+    font-size: 65px;
+    font-family: 'Roboto Slab';
+    text-align: center;
+    height: 1em;
+}
+#lib p{
+    display: block;
+    margin: 40px auto 10px auto;
+    color: #ffffff;
+    font-weight: 600;
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 24px;
+    font-style: normal;
+    width:fit-content;
+    padding-top: 20px;
+    border-top: 1px solid #fff;
+    border-radius: 2px;
+}
+#l-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    grid-gap:1em;
+    margin-top:1em;
+
+}
+#l-info p{
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+}
+
+#library1{
+    background-color: rgba(51,165,108,0.61);
+    padding-top: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 30px !important;
+}
+#library2{
+    background-color: rgba(30,115,190,0.61);
+    padding-top: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 30px !important;
+}
+#library3{
+    padding-top: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 30px !important;
+    background-color: rgba(221,31,31,0.47)
+}
+
+#lib{
+    margin-top: 150px;
+}
+
+#rocket{
+    background-image: url("../farhan(images)/rocketback.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding-top: 30px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#track{
+    display: flex;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 20px;
+    font-family: 'EB Garamond', serif;
+}
+
+#na{
+    margin-left: 420px;
+    margin-top: -50px;
+    font-size: 18px;
+}
+
+
+
+#quote{
+    margin:150px auto;
+}
+
+@media screen and (max-width: 1024px){
+   #krak p{
+       font-size: 12px;
+   }
+   #krak h1{
+       padding: 15px;
+       font-size: 28px;
+   }
+
+   #quote{
+       display: grid;
+       grid-template-columns: 1fr;
+       
+   }
+   #quote img{
+       width: 100%;
+       height: auto;
+   }
+   
+}
+
+@media screen and (max-width: 768px){
+    #krak p{
+        font-size: 16px;
+    }
+    #krak h1{
+        padding: 20px;
+       font-size: 2.5rem;
+    }
+    #na{
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+}
